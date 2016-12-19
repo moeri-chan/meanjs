@@ -55,7 +55,7 @@
     "lusca": "~1.4.1",
     "method-override": "~2.3.5",
     "mocha": "~3.1.0",
-    "mongoose": "~4.6.2",
+    "mongoose": "~4.7.3",
     "morgan": "~1.7.0",
     "multer": "~1.2.0",
     "nodemailer": "~2.6.4",
@@ -78,8 +78,11 @@
   "devDependencies": {
     "coveralls": "~2.11.6",
     "del": "^2.2.2",
-    "eslint": "~2.2.0",
-    "eslint-config-airbnb": "~6.0.2",
+    "eslint": "^3.12.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-config-airbnb": "~13.0.0",
+    "eslint-plugin-react": "^6.8.0",  
     "gulp": "~3.9.1",
     "gulp-angular-templatecache": "~2.0.0",
     "gulp-autoprefixer": "~3.1.0",
@@ -112,10 +115,10 @@
     "karma-phantomjs-launcher": "~1.0.0",
     "lcov-result-merger": "~1.2.0",
     "mock-fs": "~3.11.0",
-    "node-inspector": "~0.12.8",
     "run-sequence": "~1.2.2",
     "semver": "~5.3.0",
     "should": "~11.1.0",
     "supertest": "~2.0.0"
-  }
+  },
+    "//": "node-inspector: ~0.12.8"
 }
